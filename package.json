@@ -1,11 +1,28 @@
 {
   "name": "testtime",
-  "version": "0.1.0",
-  "private": true,
+  "description": "Testing time-dependent code with Jest.",
+  "keywords": ["Jest", "test", "time"],
+  "version": "1.0.0",
+  "private": false,
+  "licence": "CPL-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kbwood/testtime.git"
+  },
+  "author": {
+    "name": "Keith Wood",
+    "email": "keith.wood@fairfaxmedia.com.au"
+  },
+  "main": "src/index.js",
   "dependencies": {
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "recompose": "^0.30.0"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

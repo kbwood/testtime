@@ -1,0 +1,13 @@
+.Clock-clock {
+    margin-bottom: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Clock-time {
+    font-size: 1.2em;
+}
+
+.Clock-separator {
+    padding: 0 0.5em;
+}

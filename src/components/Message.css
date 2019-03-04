@@ -1,0 +1,16 @@
+.Message-message {
+    position: fixed;
+    width: 50%;
+    top: 25%;
+    left: 25%;
+    padding: 2em;
+    background: #eef;
+    border: 3px solid blue;
+    border-radius: 0.5em;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.Message-visible {
+    opacity: 1;
+}
